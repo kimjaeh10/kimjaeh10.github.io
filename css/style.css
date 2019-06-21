@@ -107,8 +107,12 @@ input, select {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 body {
-    font-family: 'Catamaran';
+    font-family: Catamaran;
 }
 
 header {
@@ -148,6 +152,39 @@ header nav ul li a {
 
 header .header-contact {
     display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    header .header-brand {
+        margin: 31px 0;
+        text-align: left;
+        line-height: 38px;
+        padding: 0 20px 0 40px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+    header nav ul {
+        margin: 20px 0px 0px 20px;
+        float: left;
+    }
+
+    header nav ul li a {
+        line-height: 60px;
+    }
+
+    header .header-contact {
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        color: #111;
+        line-height: 38px;   
+        border: 1px solid #111;
+        border-radius: 7px;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
 }
 
 /* Index */
@@ -202,4 +239,160 @@ header .header-contact {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .index-banner {
+        height: 500px;
+    }
+
+    .index-banner h1 {
+        display: block;
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    .index-banner h2 {
+        font-size: 48px;
+    }
+
+    .index-links div {
+        margin: 16px;
+        width: calc(100% - 32px);
+        height: 100px;
+    }
+}
+
+/* ABOUT SECTION */
+.about {
+    margin: 20px;
+    padding: 20px;
+    background: rgb(2,0,36);
+    background-image: linear-gradient( 89.2deg,  rgba(5,120,190,1) 3.3%, rgba(119,217,211,1) 97.8% );
+    border-radius: 25px;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.about p {
+    color: #fff;
+    line-height: 30px;
+    text-indent: 30px;
+}
+
+.about img {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .about h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .about img {
+        width: 200px;
+    }
+
+    .container-about {
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .container-about {
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+
+.education {
+    margin: 20px;
+    padding: 20px;
+    background: rgb(2,0,36);
+    background-image: linear-gradient( 89.2deg,  rgba(5,120,190,1) 3.3%, rgba(119,217,211,1) 97.8% );
+    border-radius: 25px;
+}
+
+.education h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.education h3 {
+}
+
+.education img {
+    width: 50px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    padding: 40px;
+    background: rgb(2,0,36);
+    background-image: linear-gradient( 89.2deg,  rgba(5,120,190,1) 3.3%, rgba(119,217,211,1) 97.8% );
+    overflow: hidden;
+}
+
+footer ul {
+    width: fix-content;
+    float: left;
+    padding-left: 10px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;    
+}
+
+footer ul li a {
+    font-size: 16px;
+    font-weight: 450;
+    color: #fff;
+    line-height: 30px;
+}
+
+.footer-sm {
+    width: 40px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    footer ul {
+        padding-left: 20px;
+    }
+
+    footer ul li a {
+        font-size: 24px;
+        font-weight: 450;
+        color: #fff;
+        line-height: 40px;
+    }
+
+    .footer-sm {
+        width: 50px;
+    }
 }
