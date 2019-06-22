@@ -11,16 +11,28 @@
 	<link href="https://fonts.googleapis.com/css?family=Catamaran:400,700,900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+	    $(function(){
+		    $("[data-load]").each(function(){
+		        $(this).load($(this).data("load"), function(){
+		        });
+		    });
+		});
+	</script>
 </head>
+
+
+
 <body>
 	<header>
 		<a href="index.html" class="header-brand">JAY KIM</a>
-
 		<nav>
 			<ul>
 				<li><a href="about.html">ABOUT</a></li>
 				<li><a href="education.html">EDUCATION</a></li>
-				<li><a href="projects.html">PROJECTS</a></li>
+				<li><a href="portfolio.html">PORTFOLIO</a></li>
 				<li><a href="skills.html">SKILLS</a></li>
 			</ul>
 			<a href="contact.html" class="header-contact">CONTACT</a>
@@ -70,7 +82,7 @@
 				<li><a href="#">HOME</a></li>
 				<li><a href="#">ABOUT</a></li>
 				<li><a href="#">EDUCATION</a></li>
-				<li><a href="#">PROJECTS</a></li>
+				<li><a href="#">PORTFOLIO</a></li>
 				<li><a href="#">SKILLS</a></li>
 				<li><a href="#">CONTACT</a></li>
 			</ul>
