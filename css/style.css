@@ -363,7 +363,7 @@ header .header-contact {
 .education h3 {
     color: #fff;
     text-align: center;
-    margin-bottom: 10px;
+    padding: 5px 0;
 }
 
 .education p {
@@ -377,17 +377,23 @@ header .header-contact {
     margin: 20px auto;
 }
 
-.education-coursework-title {
-    text-align: center;
-}
-
 .education-degree {
     text-align: center;
+    margin: 10px 0 50px 0;
+}
+
+.education-coursework-title {
+    text-align: center;
+    margin: 10px 0;
 }
 
 .education ul {
     width: fix-content;
     padding-left: 10px;
+}
+
+.education ul li {
+    color: #fff;
 }
 
 .education ul li a {
