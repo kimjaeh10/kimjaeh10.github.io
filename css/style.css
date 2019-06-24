@@ -478,6 +478,7 @@ header .header-contact {
     display: block;
     margin: 0 auto;
     width: 80%;
+    max-width: 360px;
 }
 
 .select-box {
@@ -489,6 +490,32 @@ header .header-contact {
     padding: 10px 0 20px 0;
 }
 
+@media only screen and (min-width: 768px) {
+    .portfolio h1 {
+        font-size: 36px;
+        margin: 20px 0;
+    }
+
+    .portfolio h2 {
+        font-size: 28px;
+    }
+
+    .portfolio h3 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .portfolio img {
+        width: 360px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .portfolio-box {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
 
 /* SKILLS */
 
