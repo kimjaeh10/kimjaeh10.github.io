@@ -475,12 +475,18 @@ header .header-contact {
 }
 
 .portfolio img {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .select-box {
     width: fit-content;
     margin: 10px auto 20px auto;
+}
+
+.portfolio-box-element {
+    padding: 10px 0 20px 0;
 }
 
 
