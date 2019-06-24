@@ -285,6 +285,13 @@ header .header-contact {
     margin-bottom: 10px;
 }
 
+.about h2 {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
 .about p {
     color: #fff;
     line-height: 30px;
