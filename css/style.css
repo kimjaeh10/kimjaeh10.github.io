@@ -478,7 +478,8 @@ header .header-contact {
 .portfolio p {
     font-size: 16px;
     color: #fff;
-    margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;
 }
 
 .portfolio img {
